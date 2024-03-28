@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capsule Wardrobe Planner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #summary {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capsule Wardrobe Planner</h1>
+
+    <div>
+        <label for="events">Q1. What types of events or occasions will you be attending?</label>
+        <input type="text" id="events" />
+
+        <label for="dressCode">Q2. Are there any specific dress codes or guidelines for these events?</label>
+        <input type="text" id="dressCode" />
+
+        <label for="currentClothes">Q3. What clothes do you currently have in your wardrobe for this season?</label>
+        <input type="text" id="currentClothes" />
+
+        <label for="specificItems">Q4. What specific items or styles are you looking to add to your wardrobe?</label>
+        <input type="text" id="specificItems" />
+
+        <label for="colorPreferences">Q5. Are there any colors or patterns you prefer for your outfits?</label>
+        <input type="text" id="colorPreferences" />
+
+        <button onclick="planCapsuleWardrobe()">Plan Capsule Wardrobe</button>
+
+        <div id="summary"></div>
+    </div>
+
+    <script>
+        function planCapsuleWardrobe() {
+            var events = document.getElementById("events").value;
+            var dressCode = document.getElementById("dressCode").value;
+            var currentClothes = document.getElementById("currentClothes").value;
+            var specificItems = document.getElementById("specificItems").value;
+            var colorPreferences = document.getElementById("colorPreferences").value;
+            
+            // Additional logic and customization can be added here based on the collected information
+            
+            // Generate the summary
+            var summary = "<h2>Summary</h2>";
+            summary += "<p><strong>Q1. Events/Occasions:</strong> " + events + "</p>";
+            summary += "<p><strong>Q2. Dress Code:</strong> " + dressCode + "</p>";
+            summary += "<p><strong>Q3. Current Clothes:</strong> " + currentClothes + "</p>";
+            summary += "<p><strong>Q4. Specific Items:</strong> " + specificItems + "</p>";
+            summary += "<p><strong>Q5. Color Preferences:</strong> " + colorPreferences + "</p>";
+            
+            // Display the summary
+            document.getElementById("summary").innerHTML = summary;
+        }
+    </script>
+</body>
+</html>

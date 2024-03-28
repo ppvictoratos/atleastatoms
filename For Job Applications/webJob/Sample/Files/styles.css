@@ -1,0 +1,75 @@
+/*	Peter Victoratos
+	Copyright (c) 2019
+
+	Holds the design parameters for the main staff page
+*/
+
+body {
+	background-image: url(https://media.giphy.com/media/F8C2mZCv9wDE4/giphy.gif);
+	background-repeat:repeat;
+	font-family: bungee;
+	color: white;
+	margin: 20px;
+}
+
+@font-face{
+	font-family: BungeeReg;
+	src: url(assets/fonts/Bungee-Regular.woff);
+}
+
+@font-face{
+	font-family: BungeeHairline;
+	src: url(assets/fonts/Bungee-Hairline.woff);
+}
+
+
+h1{
+	color: #e63d31;
+	padding: 15px;
+}
+
+/* Different Department Headers
+*/
+h3 {
+	color: powderblue;
+	border: 1px dashed black;
+	padding: 8px;
+	margin-right: 400px;
+	font-family:BungeeReg;
+	text-align: left;
+}
+
+/* Employee info
+*/
+h2 {
+	font-family: BungeeHairline;
+	color: white;
+}
+
+
+a {
+	color: powderblue;
+	font-family: bungeeReg;
+}
+
+.thumbnail img{
+	height:250px;
+	width:100%;
+}
+
+figure{
+	width: 500px;
+	height: 150px;
+	text-align: center;
+	text-align: middle;
+  	text-indent: 0;
+  	font-size: 1em;
+  	border: thin silver solid;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding: 30px;
+}
+
+figcaption{
+	float: bottom
+}

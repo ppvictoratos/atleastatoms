@@ -1,0 +1,29 @@
+/*	Peter Victoratos
+	Copyright (c) 2019
+
+	Holds the design parameters for each staff page
+*/
+
+body {
+	background-image: url(https://media.giphy.com/media/F8C2mZCv9wDE4/giphy.gif);
+	background-repeat:repeat;
+	font-family: BungeeReg;
+	color: white;
+	margin: 20px;
+}
+
+
+@font-face{
+	font-family: BungeeReg;
+	src: url(assets/fonts/Bungee-Regular.woff)
+}
+
+h2{
+	font-family: BungeeReg;
+
+}
+
+p{
+	font-family: BungeeReg;
+}
+

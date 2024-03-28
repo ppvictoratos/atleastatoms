@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8D223A226AF9329006716EF /* Spinz WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D8D223A126AF9329006716EF /* Spinz WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8D223A726AF932A006716EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D223A626AF932A006716EF /* Assets.xcassets */; };
+		D8D223AE26AF932A006716EF /* Spinz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D8D223AD26AF932A006716EF /* Spinz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D8D223B326AF932A006716EF /* SpinzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223B226AF932A006716EF /* SpinzApp.swift */; };
+		D8D223B526AF932A006716EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223B426AF932A006716EF /* ContentView.swift */; };
+		D8D223B726AF932A006716EF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223B626AF932A006716EF /* NotificationController.swift */; };
+		D8D223B926AF932A006716EF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223B826AF932A006716EF /* NotificationView.swift */; };
+		D8D223BB26AF932A006716EF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223BA26AF932A006716EF /* ComplicationController.swift */; };
+		D8D223BD26AF932B006716EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D223BC26AF932B006716EF /* Assets.xcassets */; };
+		D8D223C026AF932B006716EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D223BF26AF932B006716EF /* Preview Assets.xcassets */; };
+		D8D223CC26AF932B006716EF /* SpinzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223CB26AF932B006716EF /* SpinzTests.swift */; };
+		D8D223D726AF932B006716EF /* SpinzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D223D626AF932B006716EF /* SpinzUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8D223A326AF9329006716EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D2239726AF9329006716EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D223A026AF9329006716EF;
+			remoteInfo = "Spinz WatchKit App";
+		};
+		D8D223AF26AF932A006716EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D2239726AF9329006716EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D223AC26AF932A006716EF;
+			remoteInfo = "Spinz WatchKit Extension";
+		};
+		D8D223C826AF932B006716EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D2239726AF9329006716EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D223AC26AF932A006716EF;
+			remoteInfo = "Spinz WatchKit Extension";
+		};
+		D8D223D326AF932B006716EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8D2239726AF9329006716EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8D223A026AF9329006716EF;
+			remoteInfo = "Spinz WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8D223DE26AF932B006716EF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D8D223AE26AF932A006716EF /* Spinz WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223E226AF932B006716EF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D8D223A226AF9329006716EF /* Spinz WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D8D2239D26AF9329006716EF /* Spinz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D223A126AF9329006716EF /* Spinz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spinz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D223A626AF932A006716EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D223A826AF932A006716EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D223AD26AF932A006716EF /* Spinz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Spinz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D223B226AF932A006716EF /* SpinzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinzApp.swift; sourceTree = "<group>"; };
+		D8D223B426AF932A006716EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8D223B626AF932A006716EF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D8D223B826AF932A006716EF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		D8D223BA26AF932A006716EF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D8D223BC26AF932B006716EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D223BF26AF932B006716EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8D223C126AF932B006716EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D223C226AF932B006716EF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D8D223C726AF932B006716EF /* SpinzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D223CB26AF932B006716EF /* SpinzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinzTests.swift; sourceTree = "<group>"; };
+		D8D223CD26AF932B006716EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8D223D226AF932B006716EF /* SpinzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D223D626AF932B006716EF /* SpinzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinzUITests.swift; sourceTree = "<group>"; };
+		D8D223D826AF932B006716EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8D223AA26AF932A006716EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223C426AF932B006716EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223CF26AF932B006716EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8D2239626AF9329006716EF = {
+			isa = PBXGroup;
+			children = (
+				D8D223A526AF9329006716EF /* Spinz WatchKit App */,
+				D8D223B126AF932A006716EF /* Spinz WatchKit Extension */,
+				D8D223CA26AF932B006716EF /* SpinzTests */,
+				D8D223D526AF932B006716EF /* SpinzUITests */,
+				D8D2239E26AF9329006716EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D2239E26AF9329006716EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8D2239D26AF9329006716EF /* Spinz.app */,
+				D8D223A126AF9329006716EF /* Spinz WatchKit App.app */,
+				D8D223AD26AF932A006716EF /* Spinz WatchKit Extension.appex */,
+				D8D223C726AF932B006716EF /* SpinzTests.xctest */,
+				D8D223D226AF932B006716EF /* SpinzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8D223A526AF9329006716EF /* Spinz WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D8D223A626AF932A006716EF /* Assets.xcassets */,
+				D8D223A826AF932A006716EF /* Info.plist */,
+			);
+			path = "Spinz WatchKit App";
+			sourceTree = "<group>";
+		};
+		D8D223B126AF932A006716EF /* Spinz WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D8D223B226AF932A006716EF /* SpinzApp.swift */,
+				D8D223B426AF932A006716EF /* ContentView.swift */,
+				D8D223B626AF932A006716EF /* NotificationController.swift */,
+				D8D223B826AF932A006716EF /* NotificationView.swift */,
+				D8D223BA26AF932A006716EF /* ComplicationController.swift */,
+				D8D223BC26AF932B006716EF /* Assets.xcassets */,
+				D8D223C126AF932B006716EF /* Info.plist */,
+				D8D223C226AF932B006716EF /* PushNotificationPayload.apns */,
+				D8D223BE26AF932B006716EF /* Preview Content */,
+			);
+			path = "Spinz WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D8D223BE26AF932B006716EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8D223BF26AF932B006716EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8D223CA26AF932B006716EF /* SpinzTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D223CB26AF932B006716EF /* SpinzTests.swift */,
+				D8D223CD26AF932B006716EF /* Info.plist */,
+			);
+			path = SpinzTests;
+			sourceTree = "<group>";
+		};
+		D8D223D526AF932B006716EF /* SpinzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8D223D626AF932B006716EF /* SpinzUITests.swift */,
+				D8D223D826AF932B006716EF /* Info.plist */,
+			);
+			path = SpinzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8D2239C26AF9329006716EF /* Spinz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D223E326AF932B006716EF /* Build configuration list for PBXNativeTarget "Spinz" */;
+			buildPhases = (
+				D8D2239B26AF9329006716EF /* Resources */,
+				D8D223E226AF932B006716EF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D223A426AF9329006716EF /* PBXTargetDependency */,
+			);
+			name = Spinz;
+			productName = Spinz;
+			productReference = D8D2239D26AF9329006716EF /* Spinz.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D8D223A026AF9329006716EF /* Spinz WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D223DF26AF932B006716EF /* Build configuration list for PBXNativeTarget "Spinz WatchKit App" */;
+			buildPhases = (
+				D8D2239F26AF9329006716EF /* Resources */,
+				D8D223DE26AF932B006716EF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D223B026AF932A006716EF /* PBXTargetDependency */,
+			);
+			name = "Spinz WatchKit App";
+			productName = "Spinz WatchKit App";
+			productReference = D8D223A126AF9329006716EF /* Spinz WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D8D223AC26AF932A006716EF /* Spinz WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D223DB26AF932B006716EF /* Build configuration list for PBXNativeTarget "Spinz WatchKit Extension" */;
+			buildPhases = (
+				D8D223A926AF932A006716EF /* Sources */,
+				D8D223AA26AF932A006716EF /* Frameworks */,
+				D8D223AB26AF932A006716EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spinz WatchKit Extension";
+			productName = "Spinz WatchKit Extension";
+			productReference = D8D223AD26AF932A006716EF /* Spinz WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D8D223C626AF932B006716EF /* SpinzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D223E626AF932B006716EF /* Build configuration list for PBXNativeTarget "SpinzTests" */;
+			buildPhases = (
+				D8D223C326AF932B006716EF /* Sources */,
+				D8D223C426AF932B006716EF /* Frameworks */,
+				D8D223C526AF932B006716EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D223C926AF932B006716EF /* PBXTargetDependency */,
+			);
+			name = SpinzTests;
+			productName = SpinzTests;
+			productReference = D8D223C726AF932B006716EF /* SpinzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8D223D126AF932B006716EF /* SpinzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8D223E926AF932B006716EF /* Build configuration list for PBXNativeTarget "SpinzUITests" */;
+			buildPhases = (
+				D8D223CE26AF932B006716EF /* Sources */,
+				D8D223CF26AF932B006716EF /* Frameworks */,
+				D8D223D026AF932B006716EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D223D426AF932B006716EF /* PBXTargetDependency */,
+			);
+			name = SpinzUITests;
+			productName = SpinzUITests;
+			productReference = D8D223D226AF932B006716EF /* SpinzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8D2239726AF9329006716EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D8D2239C26AF9329006716EF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D8D223A026AF9329006716EF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D8D223AC26AF932A006716EF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					D8D223C626AF932B006716EF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D8D223AC26AF932A006716EF;
+					};
+					D8D223D126AF932B006716EF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D8D223A026AF9329006716EF;
+					};
+				};
+			};
+			buildConfigurationList = D8D2239A26AF9329006716EF /* Build configuration list for PBXProject "Spinz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8D2239626AF9329006716EF;
+			productRefGroup = D8D2239E26AF9329006716EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8D2239C26AF9329006716EF /* Spinz */,
+				D8D223A026AF9329006716EF /* Spinz WatchKit App */,
+				D8D223AC26AF932A006716EF /* Spinz WatchKit Extension */,
+				D8D223C626AF932B006716EF /* SpinzTests */,
+				D8D223D126AF932B006716EF /* SpinzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8D2239B26AF9329006716EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D2239F26AF9329006716EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D223A726AF932A006716EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223AB26AF932A006716EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D223C026AF932B006716EF /* Preview Assets.xcassets in Resources */,
+				D8D223BD26AF932B006716EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223C526AF932B006716EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223D026AF932B006716EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D223A926AF932A006716EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D223B726AF932A006716EF /* NotificationController.swift in Sources */,
+				D8D223B526AF932A006716EF /* ContentView.swift in Sources */,
+				D8D223BB26AF932A006716EF /* ComplicationController.swift in Sources */,
+				D8D223B326AF932A006716EF /* SpinzApp.swift in Sources */,
+				D8D223B926AF932A006716EF /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223C326AF932B006716EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D223CC26AF932B006716EF /* SpinzTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8D223CE26AF932B006716EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D223D726AF932B006716EF /* SpinzUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8D223A426AF9329006716EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D223A026AF9329006716EF /* Spinz WatchKit App */;
+			targetProxy = D8D223A326AF9329006716EF /* PBXContainerItemProxy */;
+		};
+		D8D223B026AF932A006716EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D223AC26AF932A006716EF /* Spinz WatchKit Extension */;
+			targetProxy = D8D223AF26AF932A006716EF /* PBXContainerItemProxy */;
+		};
+		D8D223C926AF932B006716EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D223AC26AF932A006716EF /* Spinz WatchKit Extension */;
+			targetProxy = D8D223C826AF932B006716EF /* PBXContainerItemProxy */;
+		};
+		D8D223D426AF932B006716EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8D223A026AF9329006716EF /* Spinz WatchKit App */;
+			targetProxy = D8D223D326AF932B006716EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8D223D926AF932B006716EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8D223DA26AF932B006716EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8D223DC26AF932B006716EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Spinz WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Spinz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.Spinz.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		D8D223DD26AF932B006716EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Spinz WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Spinz WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.Spinz.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		D8D223E026AF932B006716EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				IBSC_MODULE = Spinz_WatchKit_Extension;
+				INFOPLIST_FILE = "Spinz WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.Spinz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		D8D223E126AF932B006716EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				IBSC_MODULE = Spinz_WatchKit_Extension;
+				INFOPLIST_FILE = "Spinz WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.Spinz.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		D8D223E426AF932B006716EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.Spinz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D8D223E526AF932B006716EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.Spinz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D8D223E726AF932B006716EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				INFOPLIST_FILE = SpinzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.SpinzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spinz WatchKit Extension.appex/Spinz WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		D8D223E826AF932B006716EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				INFOPLIST_FILE = SpinzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.SpinzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spinz WatchKit Extension.appex/Spinz WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		D8D223EA26AF932B006716EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				INFOPLIST_FILE = SpinzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.SpinzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Spinz WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		D8D223EB26AF932B006716EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R6CF59GRY;
+				INFOPLIST_FILE = SpinzUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shneakypete.SpinzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Spinz WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8D2239A26AF9329006716EF /* Build configuration list for PBXProject "Spinz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D223D926AF932B006716EF /* Debug */,
+				D8D223DA26AF932B006716EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D223DB26AF932B006716EF /* Build configuration list for PBXNativeTarget "Spinz WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D223DC26AF932B006716EF /* Debug */,
+				D8D223DD26AF932B006716EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D223DF26AF932B006716EF /* Build configuration list for PBXNativeTarget "Spinz WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D223E026AF932B006716EF /* Debug */,
+				D8D223E126AF932B006716EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D223E326AF932B006716EF /* Build configuration list for PBXNativeTarget "Spinz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D223E426AF932B006716EF /* Debug */,
+				D8D223E526AF932B006716EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D223E626AF932B006716EF /* Build configuration list for PBXNativeTarget "SpinzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D223E726AF932B006716EF /* Debug */,
+				D8D223E826AF932B006716EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8D223E926AF932B006716EF /* Build configuration list for PBXNativeTarget "SpinzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D223EA26AF932B006716EF /* Debug */,
+				D8D223EB26AF932B006716EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8D2239726AF9329006716EF /* Project object */;
+}

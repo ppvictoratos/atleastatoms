@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Optionals Opening Discussion'/>
+        <page name='Optionals Quick Example'/>
+        <page name='Optionals and Arrays'/>
+        <page name='Optionals and Functions'/>
+        <page name='Common Optional Binding Syntax'/>
+        <page name='Be careful with optional strings'/>
+        <page name='Enumerations (enums)'/>
+        <page name='Switch statements (on enums)'/>
+    </pages>
+</playground>
